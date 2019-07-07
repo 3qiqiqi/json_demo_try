@@ -1,0 +1,20 @@
+{
+	"so_path": "plugins/User.so",
+	"load": false,
+	"version": 1,
+
+	"cmd": [{
+			"cmd": 2001,
+			"class": "CmdUserLogin"
+		},
+		{
+			"cmd": 2003,
+			"class": "CmdUserLogout"
+		}
+	],
+	"module": [{
+		"path": "im/user/login",
+		"class": "neb::ModuleLogin"
+	}]
+
+}
